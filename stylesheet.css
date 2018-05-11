@@ -1,8 +1,9 @@
 body{
-	background-color:#049CFF;
+	background:url("images/background.jpg");
+	background-size: 1024px 768px;
+	background-size: cover;
 }
 h1{
-	background-color:#50BEFF;
 	color:white;
 	font-size:60px;
 	text-align:center;
@@ -12,5 +13,38 @@ p {
 	text-align:center;
 	font-size:30px;
 	font-family:comic sans;
-	color:white;
+	color:black;
+}
+ul {
+	text-align:center;
+}
+.grid {
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-gap:2vh;
+	border:1px black solid;
+}
+.bodypage {
+	background-color:transparent;
+	padding:1em;
+	grid-column-start:1;
+	grid-column-end:5;
+}
+.box{
+	border: 1px black solid;
+	width: 50%;
+	margin: 1px;
+}
+.grid1 {
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	grid-gap:2vh;
+	border:1px black solid;
+}
+.buttons {
+	background-color:transparent;
+	padding:1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	text-align: center;
 }

@@ -1,3 +1,19 @@
 body {
-	background-color:white;
+	background-color:#71717D;
 }
+h1 {
+	text-align:center;
+}
+.grid {
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-gap:2vh;
+	border:1px black solid;
+}
+.characters {
+	background-color:transparent;
+	padding:1em;
+	grid-column-start:1;
+	grid-column-end:span 1;
+}
+	

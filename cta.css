@@ -1,0 +1,24 @@
+body {
+	background-color:#71717D;
+	text-align:center;
+}
+p {
+	font-size:30px;
+	font-family:comic sans;
+	color:black;
+}
+img {
+	text-align:center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1 {
+	color:white;
+	font-size:60px;
+	text-align:center;
+	font-family:Times New Roman;
+}

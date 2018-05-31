@@ -1,0 +1,33 @@
+body {
+	background-color:#71717D;
+	text-align:center;
+}
+p {
+	font-size:30px;
+	font-family:comic sans;
+	color:black;
+}
+.grid {
+	display:grid;
+	grid-template-column:1fr 1fr 1fr 1fr;
+	grid-gap:2vh;
+	border:1px black solid;
+}
+.top {
+	background-color:transparent;
+	padding: 1em;
+	grid-column-start:1;
+	grid-column-end: span 4;
+}
+.next {
+	background-color:transparent;
+	padding: 1em;
+	grid-column-start:1;
+	grid-column-end: span 4;
+}
+h1 {
+	color:white;
+	font-size:60px;
+	text-align:center;
+	font-family:Times New Roman;
+}

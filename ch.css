@@ -1,19 +1,62 @@
 body {
 	background-color:#71717D;
-}
-h1 {
 	text-align:center;
 }
-.grid {
+h1 {
+	color:white;
+	font-size:60px;
+	text-align:center;
+	font-family:Times New Roman;
+}
+.grid1 {
 	display:grid;
-	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-template-column:1fr 1fr 1fr;
+	grid-row-start:1fr 1fr;
 	grid-gap:2vh;
 	border:1px black solid;
 }
-.characters {
+.lilo {
 	background-color:transparent;
 	padding:1em;
 	grid-column-start:1;
 	grid-column-end:span 1;
+	border:1px black solid;
 }
-	
+.nani {
+	background-color:transparent;
+	padding:1em;
+	grid-column-start:2;
+	grid-column-end:span 1;
+	border:1px black solid;
+}
+.pleakley{
+	background-color:transparent;
+	padding:1em;
+	grid-column-start:3;
+	grid-column-end:span 1;
+	border:1px black solid;
+}
+.jumba {
+	background-color:transparent;
+	padding:1em;
+	grid-column-start:1;
+	grid-row-start: 2;
+	grid-column-end:span 1;
+	border:1px black solid;
+}
+.captian {
+	background-color:transparent;
+	padding:1em;
+	grid-column-start:2;
+	grid-row-start: 2;
+	grid-column-end:span 1;
+	border:1px black solid;
+}
+.cobra {
+	background-color:transparent;
+	padding:1em;
+	grid-column-start:3;
+	grid-row-start: 2;
+	grid-column-end:span 1;
+	border:1px black solid;
+}
